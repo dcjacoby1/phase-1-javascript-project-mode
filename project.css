@@ -1,0 +1,219 @@
+body {
+    background: #7eaad0;
+  }
+
+  /* container for the whole page */
+  #page {
+  /* sets height to 100% of page */
+    height: 100vh;
+  /* sets width to 100% of the page */
+    width: 100vw;
+  }
+  
+  /* make a sandwich logo*/
+  h1 {
+    font-family: 'Impact';
+    font-size: 20px;
+    font-weight:normal;
+    color: green;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  
+    }
+  /* id container for make a sandwich logo */
+  #logo h1{
+    line-height: 100px;
+    height: 100px;
+    letter-spacing: 10px; 
+    font-size: 5em;
+    margin: 0px auto;
+    width: auto;
+    text-align: center;
+    
+    
+  }
+  /* container that inclides logo until dropdown */
+  #header-page{
+    overflow: hidden;
+    height: 200px;
+    
+  }
+  
+  /* container that includes logo until title for dropdown*/
+  #header{
+    overflow: hidden;
+    width: auto;
+    height: 150px;
+    margin: 0px;
+    padding: 0px 0px;
+    
+  }
+  
+  
+  /* container for dropdowns and text above dropdown - anything in the form*/
+  #three-options{
+    overflow: hidden;
+    /* sets width of the container*/
+    width: 1000px;
+    /* brings the container vertically upward */
+    margin: -100px auto;
+    /* creates space between the logo container and dropdown container*/
+    padding: 40px 30px;
+   /* puts the container in the center*/
+    text-align: center;
+   
+  }
+  
+
+  /* title text for dropdown */
+  #three-options h2{
+    font-size: 30px;
+    color: red;
+  }
+  
+  /* bread text and dropdown */
+  #three-options #bread{
+    float: left;
+    width: 300px;
+    margin-right: 50px; 
+  
+  }
+  
+  /* veggie title text and dropdown */
+  #three-options #veggie{
+    float: left;
+    width: 300px; 
+  }
+  
+  /* meat text and dropdown*/
+  #three-options #deli{
+    float: right;
+    width: 300px; 
+  }
+  
+ 
+ 
+ 
+  /* container for nutrition facts*/
+ #nutrition-facts {
+    height: 300px;
+    padding-left: 50px;
+    width: 300px;
+    /* allows the 2 containers to be side by side*/
+    float: left;
+    padding-top: 95px;
+
+    
+    
+    
+  }
+
+
+  /* container for images*/
+  #sandwich-image {
+    height: 400px;
+    width: 600px;
+    padding-top: 120px;
+    /* combo of both margins will center within container*/
+    
+    
+    
+  }
+  /* each individual image*/
+  #sandwich-image #image {
+  /* stack the image containers on top of each other*/  
+    display: block;
+    height: 400px;
+    padding: auto;
+    width: 600px;
+    
+  }
+  
+#nutrition-facts div {
+    height: 60px;
+    background: white;
+    padding-top: 20px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+#nutrition-facts #nutrition-container-1 {
+    color: black;
+    font-size: 2em;
+    
+}
+#nutrition-facts #nutrition-container-2 {
+    color: black;
+    font-size: 1.5em;
+    background-color: rgb(230, 230, 230);
+}
+#nutrition-facts #nutrition-container-3 {
+    color: black;
+    font-size: 1.5em;
+}
+#nutrition-facts #nutrition-container-4 {
+    color: black;
+    font-size: 1.5em;
+    background-color: rgb(230, 230, 230);
+}
+#nutrition-facts #nutrition-container-5 {
+    color: black;
+    font-size: 1.5em;
+    border-bottom: 3px solid black;
+}
+
+#nutrition-facts div p {
+  transform: translateY(-50%);
+  padding: 5px;
+} 
+
+#nutrition-facts #nutrition-container-1 p {
+  text-align: left;
+  transform: translateY(-100%);
+}
+
+#menu {
+  height: 350px;
+  padding-right: 0px;
+  
+  width: 250px;
+  /* allows the 2 containers to be side by side*/
+  float: right;
+  text-align: center;
+  
+  background-color: white;
+  transform: translateY(30%);
+
+  
+  
+  
+}
+
+#submit {
+  float: right;
+  transform: translateY(-90%);
+  
+  
+  
+  
+}
+
+#nutrition-and-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 100px;
+  
+  }
+/* Signature Sandwich text */
+#above-image-text {
+  text-align: center;
+  font-size: 3em;
+  color: rgb(76, 76, 238);
+}
+
+
+#image-text {
+  font-size: larger;
+}

@@ -1,0 +1,105 @@
+
+{
+    "ingredients" : [
+        {
+        
+            "name": "white-bread",
+            "calories": 260,
+            "carbs": 25,
+            "protein": 4,
+            "fat": 6
+        },
+        {
+            "name": "whole-wheat",
+            "calories": 140,
+            "carbs": 24,
+            "protein": 8,
+            "fat": 2
+        },
+        {
+    
+            "name": "whole-grain",
+            "calories": 150,
+            "carbs": 24,
+            "protein": 8,
+            "fat": 2
+        },
+        {
+
+            "name": "lettuce",
+            "calories": 3,
+            "carbs": 1,
+            "protein": 1,
+            "fat": 0
+        },
+        {
+            "name": "tomato",
+            "calories": 5,
+            "carbs": 1,
+            "protein": 0,
+            "fat": 0
+        },
+        {
+            "name": "onion",
+            "calories": 8,
+            "carbs": 2,
+            "protein": 0,
+            "fat": 0
+        },
+        {
+            "name": "corned-beef",
+            "calories": 250,
+            "carbs": 0,
+            "protein": 27,
+            "fat": 15
+        },
+        {
+            "name": "turkey",
+            "calories": 130,
+            "carbs": 9,
+            "protein": 15,
+            "fat": 3
+        },
+        {
+
+            "name": "pastrami",
+            "calories": 165,
+            "carbs": 0,
+            "protein": 24,
+            "fat": 7
+        }
+        
+        
+    ],
+    
+    "images" : [
+
+        {
+            "id": 1,
+            "name": "Reuben",
+            "image": "https://hips.hearstapps.com/hmg-prod/images/reuben-sandwich-index-65cbda6f7697c.jpg?crop=0.6666666666666667xw:1xh;center,top&resize=1200:*",
+            "description": "Invented in 1925 by Charles Schimmel, the Reuben consists of corned beef, swiss cheese, sauerkraut, and thousand island dressing, sandwiched between two slices of rye bread"
+        },
+        {
+            "id": 2,
+            "name": "Philly Cheesesteak",
+            "image": "https://static01.nyt.com/images/2024/02/06/multimedia/KD-philly-cheesesteak-mhqc/KD-philly-cheesesteak-mhqc-superJumbo.jpg",
+            "description":"Invented in 1930 by Pat Olivieri, the Philly Cheesesteak consists of sliced beefsteak, melted cheese, and grilled onion, sandwiched in a hoagie roll"
+ 
+        },
+        {
+            "id": 3,
+            "name": "BLT",
+            "image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/08-2023-perfect-blt%2Fperfect-blt-214",
+            "description": "With an unknown origin, the BLT consists of bacon, lettuce, and tomato, sandwiched between two slices of toasted bread"
+        },
+        {
+            "id": 4,
+            "name": "Cubano", 
+            "image": "https://www.seriouseats.com/thmb/D8UCO0pqUIhHTh1Ephm7f2LEZMM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cuban-sandwich-recipe-Hero-5833ef16ac3f4ebe99fb3156c9fe2e0c.jpg",
+            "description": "Created in Miami by Cuban immigrants, the Cubano consists of ham, roasted pork, swiss cheese, and pickles, sandwiched between two slices of toasted bread"
+        }
+
+
+    ]
+}
